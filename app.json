@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "hasana",
+    "description": "A very interesting project.",
+    "slug": "hasana",
+    "privacy": "public",
+    "sdkVersion": "27.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#4bb29e"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android":{
+      "package": "com.oflarcade.hasana",
+      "versionCode": 3,
+      "icon":"./assets/images/logo.png"
+    }
+  }
+}
